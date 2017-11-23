@@ -1,0 +1,250 @@
+Last login: Thu Nov 23 13:28:45 on ttys000
+You have mail.
+Xerxess-MBP:~ XerxesBamji$ cd Users
+-bash: cd: Users: No such file or directory
+Xerxess-MBP:~ XerxesBamji$ ls
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Dropbox
+Google Drive
+Interim Individual Report.aux
+Interim Individual Report.log
+Interim Individual Report.pdf
+Interim Individual Report.synctex.gz
+Interim Individual Report.tex
+Library
+Makefile
+Movies
+Music
+Pictures
+Public
+Sites
+U-Play online
+Untitled.owl
+VirtualBox VMs
+baloo5066@gmail.com Creative Cloud Files
+bindings
+conf.pl
+config.log
+config.status
+ganttproject.log
+java0.log
+libtool
+man
+nul?
+openvpn.pid
+samples
+tests
+tools
+tsk
+unit_tests
+wekafiles
+xerbamj@gmail.com Creative Cloud Files
+xerxes.bamji@gmail.com Creative Cloud Files
+Xerxess-MBP:~ XerxesBamji$ cd Public
+Xerxess-MBP:Public XerxesBamji$ ls
+Drop Box		Sports Interactive
+Xerxess-MBP:Public XerxesBamji$ cd..
+-bash: cd..: command not found
+Xerxess-MBP:Public XerxesBamji$ cd ..
+Xerxess-MBP:~ XerxesBamji$ ls
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Dropbox
+Google Drive
+Interim Individual Report.aux
+Interim Individual Report.log
+Interim Individual Report.pdf
+Interim Individual Report.synctex.gz
+Interim Individual Report.tex
+Library
+Makefile
+Movies
+Music
+Pictures
+Public
+Sites
+U-Play online
+Untitled.owl
+VirtualBox VMs
+baloo5066@gmail.com Creative Cloud Files
+bindings
+conf.pl
+config.log
+config.status
+ganttproject.log
+java0.log
+libtool
+man
+nul?
+openvpn.pid
+samples
+tests
+tools
+tsk
+unit_tests
+wekafiles
+xerbamj@gmail.com Creative Cloud Files
+xerxes.bamji@gmail.com Creative Cloud Files
+Xerxess-MBP:~ XerxesBamji$ cd ..
+Xerxess-MBP:Users XerxesBamji$ ls
+Shared		XerxesBamji
+Xerxess-MBP:Users XerxesBamji$ cd XerxesBamji
+Xerxess-MBP:~ XerxesBamji$ nano .gitignore_global
+Xerxess-MBP:~ XerxesBamji$ ls -la
+total 1320
+drwxr-xr-x+  87 XerxesBamji  staff    2784 23 Nov 14:59 .
+drwxr-xr-x    5 root         admin     160  4 Nov 20:20 ..
+-r--------    1 XerxesBamji  staff       7 21 May  2017 .CFUserTextEncoding
+-rw-r--r--@   1 XerxesBamji  staff   26628 23 Nov 14:43 .DS_Store
+drwxr-xr-x    5 XerxesBamji  staff     160 18 Sep 19:11 .Genymobile
+drwx------    2 XerxesBamji  staff      64 23 Nov 14:52 .Trash
+-rw-------    1 XerxesBamji  staff       0  4 Dec  2016 .Xauthority
+drwxr-x--x    4 XerxesBamji  staff     128 29 May 00:21 .adobe
+drwxr-x---    4 XerxesBamji  staff     128 12 Sep 22:18 .android
+drwxr-xr-x   16 XerxesBamji  staff     512 22 Nov 14:39 .atom
+-rw-------    1 XerxesBamji  staff   12298 23 Nov 13:28 .bash_history
+-rw-r--r--    1 XerxesBamji  staff     755 20 Dec  2015 .bash_profile
+-rw-r--r--    1 XerxesBamji  staff     588  6 Oct  2015 .bash_profile.pysave
+drwx------  112 XerxesBamji  staff    3584 23 Nov 14:57 .bash_sessions
+drwxr-xr-x    2 XerxesBamji  staff      64 27 Aug 14:45 .cache
+drwx------   17 XerxesBamji  staff     544 12 Jun  2016 .canopy
+drwxr-xr-x    3 XerxesBamji  staff      96 10 Feb  2017 .cisco
+drwx------    8 XerxesBamji  staff     256 21 Mar  2016 .config
+drwx------    3 XerxesBamji  staff      96  8 Jan  2015 .cups
+drwx------    9 XerxesBamji  staff     288 29 Apr  2016 .dropbox
+drwxr-xr-x    6 XerxesBamji  staff     192 17 Apr  2016 .eclipse
+drwxr-xr-x    4 XerxesBamji  staff     128 26 Jan  2016 .emacs.d
+-rw-r--r--    1 XerxesBamji  staff    2444  2 Jun  2016 .enstaller4rc
+-rw-r--r--    1 XerxesBamji  staff    3810  2 Nov  2015 .ganttproject
+-rw-r--r--    1 XerxesBamji  staff      62 23 Nov 09:20 .gitconfig
+-rw-r--r--    1 XerxesBamji  staff      36 23 Nov 14:59 .gitignore_global
+drwx------    2 XerxesBamji  staff      64 21 Mar  2016 .gnome2
+drwxr-xr-x    3 XerxesBamji  staff      96 30 Jan  2015 .idlerc
+drwxr-xr-x    6 XerxesBamji  staff     192  6 Oct  2015 .ipython
+drwxr-xr-x    7 XerxesBamji  staff     224 27 May 10:10 .lazarus
+drwxr-xr-x    3 XerxesBamji  staff      96 21 Mar  2016 .local
+drwxr-xr-x    4 XerxesBamji  staff     128 24 Dec  2015 .matplotlib
+-rw-------    1 XerxesBamji  staff    3079  7 Mar  2015 .mysql_history
+-rw-r--r--    1 XerxesBamji  staff      43 12 Sep 22:17 .nuuid.ini
+drwxr-xr-x    6 XerxesBamji  staff     192  9 Mar  2017 .oracle_jre_usage
+drwxr-xr-x    5 XerxesBamji  staff     160  3 May  2016 .p2
+drwxr-xr-x    3 XerxesBamji  staff      96 18 Feb  2016 .protege
+drwx------    4 XerxesBamji  staff     128 27 Oct  2015 .putty
+-rw-------    1 XerxesBamji  staff     102 15 Nov 10:45 .python_history
+-rw-------    1 XerxesBamji  staff    1024  4 Dec  2016 .rnd
+drwxrwxrwx   23 root         staff     736 30 Jan  2017 .spotflux
+drwxr-xr-x    5 XerxesBamji  staff     160  3 Mar  2015 .sqlworkbench
+drwx------    3 XerxesBamji  staff      96 24 Nov  2015 .ssh
+drwxr-xr-x    3 XerxesBamji  staff      96 27 Jan  2017 .swt
+drwxr-xr-x    3 XerxesBamji  staff      96 17 Apr  2016 .tooling
+-rw-------    1 XerxesBamji  staff    1625 23 Nov 13:28 .viminfo
+drwx------   19 XerxesBamji  staff     608  3 Nov 09:46 Applications
+drwxrwxr-x@   3 XerxesBamji  staff      96 21 May  2016 Creative Cloud Files
+drwx------+  57 XerxesBamji  staff    1824 23 Nov 11:35 Desktop
+drwx------+  40 XerxesBamji  staff    1280 12 Nov 00:13 Documents
+drwx------+  53 XerxesBamji  staff    1696 23 Nov 14:10 Downloads
+drwx------@   7 XerxesBamji  staff     224 10 Nov  2016 Dropbox
+drwx------@  25 XerxesBamji  staff     800 15 Aug  2016 Google Drive
+-rw-r--r--    1 XerxesBamji  staff       8 12 Feb  2016 Interim Individual Report.aux
+-rw-r--r--    1 XerxesBamji  staff   16939 12 Feb  2016 Interim Individual Report.log
+-rw-r--r--    1 XerxesBamji  staff   60817 12 Feb  2016 Interim Individual Report.pdf
+-rw-r--r--    1 XerxesBamji  staff   30995 12 Feb  2016 Interim Individual Report.synctex.gz
+-rw-r--r--    1 XerxesBamji  staff   10234 12 Feb  2016 Interim Individual Report.tex
+drwx------@  87 XerxesBamji  staff    2784 13 Nov 21:19 Library
+-rw-r--r--    1 XerxesBamji  staff   26004  7 Nov  2016 Makefile
+drwx------+  20 XerxesBamji  staff     640  1 Nov 15:35 Movies
+drwx------+   8 XerxesBamji  staff     256  1 Nov 15:35 Music
+drwx------+   8 XerxesBamji  staff     256  7 Jan  2017 Pictures
+drwxr-xr-x+   6 XerxesBamji  staff     192 26 Jun  2015 Public
+drwxr-xr-x    4 XerxesBamji  staff     128 13 Nov 10:14 Sites
+drwxr-xr-x    4 XerxesBamji  staff     128 26 May  2016 U-Play online
+-rw-r--r--    1 XerxesBamji  staff     596 18 Feb  2016 Untitled.owl
+drwxr-xr-x    4 XerxesBamji  staff     128 14 Nov  2016 VirtualBox VMs
+drwxrwxr-x@   3 XerxesBamji  staff      96 10 Dec  2015 baloo5066@gmail.com Creative Cloud Files
+drwxr-xr-x    3 XerxesBamji  staff      96  7 Nov  2016 bindings
+-rw-r--r--    1 XerxesBamji  staff     497  7 Nov  2016 conf.pl
+-rw-r--r--    1 XerxesBamji  staff   78488  7 Nov  2016 config.log
+-rwxr-xr-x    1 XerxesBamji  staff   73019  7 Nov  2016 config.status
+-rw-r--r--    1 XerxesBamji  staff    2963  2 Nov  2015 ganttproject.log
+-rw-r--r--    1 XerxesBamji  staff    1188  2 Nov  2015 java0.log
+-rwxr-xr-x    1 XerxesBamji  staff  245584  7 Nov  2016 libtool
+drwxr-xr-x    3 XerxesBamji  staff      96  7 Nov  2016 man
+-rw-r--r--    1 XerxesBamji  staff       0  9 Oct  2015 nul?
+-rw-r--r--    1 root         staff       5 27 Jan  2017 openvpn.pid
+drwxr-xr-x    4 XerxesBamji  staff     128  7 Nov  2016 samples
+drwxr-xr-x    4 XerxesBamji  staff     128  7 Nov  2016 tests
+drwxr-xr-x   12 XerxesBamji  staff     384  7 Nov  2016 tools
+drwxr-xr-x   12 XerxesBamji  staff     384  7 Nov  2016 tsk
+drwxr-xr-x    5 XerxesBamji  staff     160 18 Dec  2016 unit_tests
+drwxr-xr-x    7 XerxesBamji  staff     224 27 Nov  2016 wekafiles
+drwxrwxr-x@   3 XerxesBamji  staff      96 15 Mar  2016 xerbamj@gmail.com Creative Cloud Files
+drwx------@   3 XerxesBamji  staff      96 14 Oct  2015 xerxes.bamji@gmail.com Creative Cloud Files
+Xerxess-MBP:~ XerxesBamji$ git config --global core.excludesfile ~/.gitignore_global
+Xerxess-MBP:~ XerxesBamji$ cat .gitconfig
+[user]
+	email = xerxes.bamji@hotmail.com
+	name = Xerxes Bamji
+[core]
+	excludesfile = /Users/XerxesBamji/.gitignore_global
+Xerxess-MBP:~ XerxesBamji$ clear
+
+Xerxess-MBP:~ XerxesBamji$ cd ..
+Xerxess-MBP:Users XerxesBamji$ ls
+Shared		XerxesBamji
+Xerxess-MBP:Users XerxesBamji$ cd XerxesBamji
+Xerxess-MBP:~ XerxesBamji$ cd Desktop
+Xerxess-MBP:Desktop XerxesBamji$ cd TestProject2
+Xerxess-MBP:TestProject2 XerxesBamji$ ls
+about.html	index.html	tempfile.txt
+Xerxess-MBP:TestProject2 XerxesBamji$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
