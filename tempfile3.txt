@@ -1,0 +1,584 @@
+Last login: Fri Nov 24 08:50:04 on console
+You have mail.
+Xerxess-MBP:~ XerxesBamji$ cd Desktop
+Xerxess-MBP:Desktop XerxesBamji$ cd TestProject2
+Xerxess-MBP:TestProject2 XerxesBamji$ git status
+On branch master
+nothing to commit, working tree clean
+Xerxess-MBP:TestProject2 XerxesBamji$ git branch new_branch
+Xerxess-MBP:TestProject2 XerxesBamji$ git branch
+* master
+  new_branch
+Xerxess-MBP:TestProject2 XerxesBamji$ ls la- git./refs/heads
+ls: git./refs/heads: No such file or directory
+ls: la-: No such file or directory
+Xerxess-MBP:TestProject2 XerxesBamji$ ls -la .git/refs/heads
+total 16
+drwxr-xr-x  4 XerxesBamji  staff  128 24 Nov 09:10 .
+drwxr-xr-x  4 XerxesBamji  staff  128 23 Nov 11:36 ..
+-rw-r--r--  1 XerxesBamji  staff   41 23 Nov 15:13 master
+-rw-r--r--  1 XerxesBamji  staff   41 24 Nov 09:10 new_branch
+Xerxess-MBP:TestProject2 XerxesBamji$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Xerxess-MBP:TestProject2 XerxesBamji$ git branch
+* master
+  new_branch
+Xerxess-MBP:TestProject2 XerxesBamji$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Xerxess-MBP:TestProject2 XerxesBamji$ git checkout new_branch
+Switched to branch 'new_branch'
+Xerxess-MBP:TestProject2 XerxesBamji$ git branch
+  master
+* new_branch
+Xerxess-MBP:TestProject2 XerxesBamji$ cat .git/HEAD
+ref: refs/heads/new_branch
+Xerxess-MBP:TestProject2 XerxesBamji$ git status
+On branch new_branch
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Xerxess-MBP:TestProject2 XerxesBamji$ git commit -am "Changed Title of index.html"
+[new_branch 8c1d0b3] Changed Title of index.html
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Xerxess-MBP:TestProject2 XerxesBamji$ git log --oneline
+8c1d0b3 (HEAD -> new_branch) Changed Title of index.html
+61f2a7e (master) Add 'empty' directory with .gitkeep file in it
+eae6eb2 Remove Tempfile2.txt from staging
+d0e1215 Adding tempfile2.txt to repo before ignoring it
+efe87b1 Add .gitnore file
+7a4c596 Corrected Spelling Mistakes in Paragraph
+2bca71d Changed Message
+ec9e074 Initial Commit
+Xerxess-MBP:TestProject2 XerxesBamji$ git checkout master
+Switched to branch 'master'
+Xerxess-MBP:TestProject2 XerxesBamji$ git branch
+* master
+  new_branch
+Xerxess-MBP:TestProject2 XerxesBamji$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Xerxess-MBP:TestProject2 XerxesBamji$ git log --oneline
+61f2a7e (HEAD -> master) Add 'empty' directory with .gitkeep file in it
+eae6eb2 Remove Tempfile2.txt from staging
+d0e1215 Adding tempfile2.txt to repo before ignoring it
+efe87b1 Add .gitnore file
+7a4c596 Corrected Spelling Mistakes in Paragraph
+2bca71d Changed Message
+ec9e074 Initial Commit
+Xerxess-MBP:TestProject2 XerxesBamji$ git checkout new_branch
+Switched to branch 'new_branch'
+Xerxess-MBP:TestProject2 XerxesBamji$ git branch
+  master
+* new_branch
+Xerxess-MBP:TestProject2 XerxesBamji$ git log --oneline
+8c1d0b3 (HEAD -> new_branch) Changed Title of index.html
+61f2a7e (master) Add 'empty' directory with .gitkeep file in it
+eae6eb2 Remove Tempfile2.txt from staging
+d0e1215 Adding tempfile2.txt to repo before ignoring it
+efe87b1 Add .gitnore file
+7a4c596 Corrected Spelling Mistakes in Paragraph
+2bca71d Changed Message
+ec9e074 Initial Commit
+Xerxess-MBP:TestProject2 XerxesBamji$ git show HEAD
+commit 8c1d0b377bb59768248b490e7176645165e0d23c (HEAD -> new_branch)
+Author: Xerxes Bamji <xerxes.bamji@hotmail.com>
+Date:   Fri Nov 24 09:13:19 2017 +0000
+
+    Changed Title of index.html
+
+diff --git a/index.html b/index.html
+index a0d5ff1..87ce9f4 100644
+--- a/index.html
++++ b/index.html
+@@ -2,7 +2,7 @@
+ <html lang="en">
+ <head>
+        <meta charset="UTF-8">
+-       <title>Test Project</title>
++       <title>Changed Test Project</title>
+ </head>
+ <body>
+ 
+Xerxess-MBP:TestProject2 XerxesBamji$ clear
+
+
+
+
+
+
+
+
+
+
+Xerxess-MBP:TestProject2 XerxesBamji$ git checkout -b shorten_title
+Switched to a new branch 'shorten_title'
+Xerxess-MBP:TestProject2 XerxesBamji$ git branch
+  master
+  new_branch
+* shorten_title
+Xerxess-MBP:TestProject2 XerxesBamji$ git log --oneline
+8c1d0b3 (HEAD -> shorten_title, new_branch) Changed Title of index.html
+61f2a7e (master) Add 'empty' directory with .gitkeep file in it
+eae6eb2 Remove Tempfile2.txt from staging
+d0e1215 Adding tempfile2.txt to repo before ignoring it
+efe87b1 Add .gitnore file
+7a4c596 Corrected Spelling Mistakes in Paragraph
+2bca71d Changed Message
+ec9e074 Initial Commit
+Xerxess-MBP:TestProject2 XerxesBamji$ git status
+On branch shorten_title
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Xerxess-MBP:TestProject2 XerxesBamji$ git add index.html
+Xerxess-MBP:TestProject2 XerxesBamji$ git comit -m "Shorten the title of index.html"
+git: 'comit' is not a git command. See 'git --help'.
+
+The most similar command is
+	commit
+Xerxess-MBP:TestProject2 XerxesBamji$ git commit -m "Shorten the title of index.html"
+[shorten_title 978c2a6] Shorten the title of index.html
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Xerxess-MBP:TestProject2 XerxesBamji$ git log --oneline
+978c2a6 (HEAD -> shorten_title) Shorten the title of index.html
+8c1d0b3 (new_branch) Changed Title of index.html
+61f2a7e (master) Add 'empty' directory with .gitkeep file in it
+eae6eb2 Remove Tempfile2.txt from staging
+d0e1215 Adding tempfile2.txt to repo before ignoring it
+efe87b1 Add .gitnore file
+7a4c596 Corrected Spelling Mistakes in Paragraph
+2bca71d Changed Message
+ec9e074 Initial Commit
+Xerxess-MBP:TestProject2 XerxesBamji$ git checkout new_branch
+Switched to branch 'new_branch'
+Xerxess-MBP:TestProject2 XerxesBamji$ git log --oneline
+8c1d0b3 (HEAD -> new_branch) Changed Title of index.html
+61f2a7e (master) Add 'empty' directory with .gitkeep file in it
+eae6eb2 Remove Tempfile2.txt from staging
+d0e1215 Adding tempfile2.txt to repo before ignoring it
+efe87b1 Add .gitnore file
+7a4c596 Corrected Spelling Mistakes in Paragraph
+2bca71d Changed Message
+ec9e074 Initial Commit
+Xerxess-MBP:TestProject2 XerxesBamji$ clear
+
+Xerxess-MBP:TestProject2 XerxesBamji$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Xerxess-MBP:TestProject2 XerxesBamji$ git log --oneline
+8c1d0b3 (HEAD -> new_branch) Changed Title of index.html
+61f2a7e (master) Add 'empty' directory with .gitkeep file in it
+eae6eb2 Remove Tempfile2.txt from staging
+d0e1215 Adding tempfile2.txt to repo before ignoring it
+efe87b1 Add .gitnore file
+7a4c596 Corrected Spelling Mistakes in Paragraph
+2bca71d Changed Message
+ec9e074 Initial Commit
+Xerxess-MBP:TestProject2 XerxesBamji$ git checkout master
+Switched to branch 'master'
+Xerxess-MBP:TestProject2 XerxesBamji$ git log --oneline
+61f2a7e (HEAD -> master) Add 'empty' directory with .gitkeep file in it
+eae6eb2 Remove Tempfile2.txt from staging
+d0e1215 Adding tempfile2.txt to repo before ignoring it
+efe87b1 Add .gitnore file
+7a4c596 Corrected Spelling Mistakes in Paragraph
+2bca71d Changed Message
+ec9e074 Initial Commit
+Xerxess-MBP:TestProject2 XerxesBamji$ git checkout shorten_title
+Switched to branch 'shorten_title'
+Xerxess-MBP:TestProject2 XerxesBamji$ git log --oneline
+978c2a6 (HEAD -> shorten_title) Shorten the title of index.html
+8c1d0b3 (new_branch) Changed Title of index.html
+61f2a7e (master) Add 'empty' directory with .gitkeep file in it
+eae6eb2 Remove Tempfile2.txt from staging
+d0e1215 Adding tempfile2.txt to repo before ignoring it
+efe87b1 Add .gitnore file
+7a4c596 Corrected Spelling Mistakes in Paragraph
+2bca71d Changed Message
+ec9e074 Initial Commit
+Xerxess-MBP:TestProject2 XerxesBamji$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Xerxess-MBP:TestProject2 XerxesBamji$ git branch
+  master
+  new_branch
+* shorten_title
+Xerxess-MBP:TestProject2 XerxesBamji$ git status
+On branch shorten_title
+nothing to commit, working tree clean
+Xerxess-MBP:TestProject2 XerxesBamji$ git status
+On branch shorten_title
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Xerxess-MBP:TestProject2 XerxesBamji$ git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+	index.html
+Please commit your changes or stash them before you switch branches.
+Aborting
+Xerxess-MBP:TestProject2 XerxesBamji$ git status
+On branch shorten_title
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Xerxess-MBP:TestProject2 XerxesBamji$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Xerxess-MBP:TestProject2 XerxesBamji$ git status --oneline
+error: unknown option `oneline'
+usage: git status [<options>] [--] <pathspec>...
+
+    -v, --verbose         be verbose
+    -s, --short           show status concisely
+    -b, --branch          show branch information
+    --show-stash          show stash information
+    --porcelain[=<version>]
+                          machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+    --ignored             show ignored files
+    --ignore-submodules[=<when>]
+                          ignore changes to submodules, optional when: all, dirty, untracked. (Default: all)
+    --column[=<style>]    list untracked files in columns
+
+Xerxess-MBP:TestProject2 XerxesBamji$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Xerxess-MBP:TestProject2 XerxesBamji$ git commit -am "Add - in title"
+[shorten_title 7beafff] Add - in title
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Xerxess-MBP:TestProject2 XerxesBamji$ checkout master
+-bash: checkout: command not found
+Xerxess-MBP:TestProject2 XerxesBamji$ git checkout master
+Switched to branch 'master'
+Xerxess-MBP:TestProject2 XerxesBamji$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Xerxess-MBP:TestProject2 XerxesBamji$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
